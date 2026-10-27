@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeXus · Prevención de fraudes digitales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Work+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nexus.css">
+  <script async id="icons-script" src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
+  <script defer src="nexus.js"></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(16, 24, 39);">
+  <div class="app-shell" id="app-shell">
+   <div class="ambient" aria-hidden="true">
+    <div class="ambient-lines"></div>
+    <div class="ambient-particles"></div>
+   </div>
+   <header class="site-header canva-header" data-template-id="site-header" style="background: rgb(25, 35, 50);">
+    <div class="header-inner">
+     <div class="brand" aria-label="NeXus">
+      <span class="brand-mark" aria-hidden="true"><i data-lucide="shield-check"></i></span><span data-template-id="brand-name" class="canva-text" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 23px;">NeXus</span>
+     </div>
+     <nav id="main-nav" class="main-nav" aria-label="Navegación principal"><button type="button" class="nav-link active canva-button" data-template-id="nav-inicio" data-view="inicio" aria-current="page" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Inicio</button> <button type="button" class="nav-link canva-button" data-template-id="nav-analizar" data-view="analizar" style="color: rgb(193, 204, 220); font-weight: 700; font-style: normal; font-size: 16px;">Analizar</button> <button type="button" class="nav-link canva-button" data-template-id="nav-aprender" data-view="aprender" style="color: rgb(193, 204, 220); font-weight: 700; font-style: normal; font-size: 16px;">Aprender</button> <button type="button" class="nav-link canva-button" data-template-id="nav-reportar" data-view="reportar" style="color: rgb(193, 204, 220); font-weight: 700; font-style: normal; font-size: 16px;">Reportar</button> <button type="button" class="nav-link canva-button" data-template-id="nav-acerca" data-view="acerca" style="color: rgb(193, 204, 220); font-weight: 700; font-style: normal; font-size: 16px;">Acerca de</button>
+     </nav>
+     <div class="header-actions"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar a modo claro"><svg id="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg><svg id="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13.1A9 9 0 0 1 10.9 3.1 9 9 0 1 0 20.9 13.1Z"/></svg></button> <button id="mobile-toggle" class="mobile-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><i data-lucide="menu"></i></button>
+     </div>
+    </div>
+   </header>
+   <main>
+    <section id="view-inicio" class="view active" aria-labelledby="home-title">
+     <div class="content-inner">
+      <div class="hero">
+       <div>
+        <p class="eyebrow canva-text" data-template-id="home-eyebrow" style="color: rgb(169, 186, 255); font-weight: 800; font-style: normal; font-size: 12px;">TU SEGURIDAD DIGITAL COMIENZA AQUÍ</p>
+        <h1 id="home-title" class="canva-text" data-template-id="home-title" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; ">¿Recibiste algo sospechoso?</h1>
+        <p class="hero-description canva-text" data-template-id="home-subtitle" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; ">Analiza mensajes y enlaces para identificar posibles señales de estafa digital</p><button id="home-cta" type="button" class="primary canva-button" data-template-id="home-cta" style="background: rgb(67, 97, 238); color: rgb(255, 255, 255);"><i data-lucide="scan-search" aria-hidden="true"></i><span class="canva-text" data-template-id="home-cta-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Analizar contenido</span><i data-lucide="arrow-right" aria-hidden="true"></i></button>
+       </div>
+       <div class="hero-art" aria-hidden="true">
+        <div class="art-core">
+         <i data-lucide="shield-check"></i>
+        </div>
+        <div class="art-badge badge-one">
+         <i data-lucide="check-circle-2"></i><span class="canva-text" data-template-id="art-badge-one" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 12px;">Señales identificadas</span>
+        </div>
+        <div class="art-badge badge-two">
+         <i data-lucide="lock-keyhole"></i><span class="canva-text" data-template-id="art-badge-two" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 12px;">Protección preventiva</span>
+        </div>
+       </div>
+      </div>
+      <div class="trust-strip canva-banner" data-template-id="trust-strip" style="background: rgb(32, 41, 54);">
+       <span class="icon-box" aria-hidden="true"><i data-lucide="info"></i></span>
+       <p class="canva-text" data-template-id="trust-text" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">NeXus ofrece un análisis preventivo basado en señales de alerta. Ante cualquier duda, verifica siempre por los canales oficiales.</p>
+      </div>
+     </div>
+    </section>
+    <section id="view-analizar" class="view section-pad" aria-labelledby="analyze-title">
+     <div class="content-inner">
+      <div class="page-heading">
+       <p class="eyebrow canva-text" data-template-id="analyze-eyebrow" style="color: rgb(169, 186, 255); font-weight: 800; font-style: normal; font-size: 12px;">ANALIZADOR</p>
+       <h1 id="analyze-title" class="canva-text" data-template-id="analyze-title" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 32px;">Analiza un mensaje o enlace sospechoso</h1>
+       <p class="canva-text" data-template-id="analyze-intro" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Elige el tipo de contenido y revisa un ejemplo de evaluación preventiva.</p>
+      </div>
+      <div class="analysis-grid">
+       <div class="card canva-card" data-template-id="analyze-card" style="background: rgb(32, 41, 54);">
+        <div class="segmented" role="group" aria-label="Tipo de contenido">
+         <button type="button" id="mode-message" class="segment active canva-button" data-template-id="mode-message" aria-pressed="true" style="font-weight: 700; font-style: normal; font-size: 16px;">Mensaje</button><button type="button" id="mode-link" class="segment canva-button" data-template-id="mode-link" aria-pressed="false" style="font-weight: 700; font-style: normal; font-size: 16px;">Enlace</button>
+        </div><label for="content-input" class="field-label canva-text" data-template-id="content-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Contenido sospechoso</label>
+        <p id="message-help" class="field-help canva-text" data-template-id="message-help" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Pega el texto de un mensaje para explorar las señales de alerta.</p>
+        <p id="link-help" class="field-help canva-text" data-template-id="link-help" hidden="" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Pega un enlace para explorar las señales de alerta.</p><textarea id="content-input" class="text-area canva-input" rows="7" aria-describedby="message-help" placeholder="Pega aquí el texto del mensaje sospechoso…"></textarea>
+        <div class="form-actions">
+         <button type="button" id="analyze-submit" class="primary canva-button" data-template-id="analyze-submit" style="background: rgb(67, 97, 238); color: rgb(255, 255, 255);"><i data-lucide="scan-search" aria-hidden="true"></i><span class="canva-text" data-template-id="analyze-submit-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Analizar contenido</span></button><button type="button" id="clear-analysis" class="secondary canva-button" data-template-id="clear-analysis" style="background: rgb(41, 54, 72); color: rgb(244, 247, 255);"><span class="canva-text" data-template-id="clear-text" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Limpiar</span></button>
+        </div>
+        <div class="notice canva-banner" data-template-id="analyze-notice" style="background: rgb(58, 49, 35);">
+         <i data-lucide="triangle-alert" aria-hidden="true"></i><span class="canva-text" data-template-id="analyze-warning" style="color: rgb(255, 229, 167); font-weight: 600; font-style: normal; font-size: 16px;">No ingreses contraseñas, códigos de verificación ni información bancaria</span>
+        </div>
+       </div>
+       <aside class="card canva-card" data-template-id="steps-card" aria-labelledby="steps-title" style="background: rgb(32, 41, 54);">
+        <h2 id="steps-title" class="canva-text" data-template-id="steps-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Cómo funciona</h2>
+        <ol class="steps">
+         <li><span class="step-number">01</span>
+          <div>
+           <strong class="canva-text" data-template-id="step-1-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Pega</strong>
+           <p class="canva-text" data-template-id="step-1-body" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Introduce el mensaje o enlace que te genera dudas.</p>
+          </div></li>
+         <li><span class="step-number">02</span>
+          <div>
+           <strong class="canva-text" data-template-id="step-2-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Analiza</strong>
+           <p class="canva-text" data-template-id="step-2-body" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Explora un ejemplo de señales de posible estafa.</p>
+          </div></li>
+         <li><span class="step-number">03</span>
+          <div>
+           <strong class="canva-text" data-template-id="step-3-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Revisa</strong>
+           <p class="canva-text" data-template-id="step-3-body" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Consulta recomendaciones antes de actuar.</p>
+          </div></li>
+        </ol>
+       </aside>
+      </div>
+     </div>
+    </section>
+    <section id="view-resultado" class="view section-pad" aria-labelledby="result-title">
+     <div class="content-inner">
+      <div class="page-heading">
+       <p class="eyebrow canva-text" data-template-id="result-eyebrow" style="color: rgb(169, 186, 255); font-weight: 800; font-style: normal; font-size: 12px;">EVALUACIÓN PREVENTIVA · EJEMPLO</p>
+       <h1 id="result-title" class="canva-text" data-template-id="result-title" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 32px;">Resultado del análisis</h1>
+       <p class="canva-text" data-template-id="result-intro" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Ejemplo ilustrativo de cómo interpretar señales de riesgo alto; el contenido introducido no se evalúa automáticamente.</p>
+      </div>
+      <div class="result-summary canva-banner" data-template-id="result-summary" style="background: rgb(56, 42, 48);">
+       <span class="risk-symbol" aria-hidden="true"><i data-lucide="shield-alert"></i></span>
+       <div>
+        <p class="risk-kicker canva-text" data-template-id="risk-kicker" style="color: rgb(242, 205, 209); font-weight: 700; font-style: normal; font-size: 13px;">Clasificación del ejemplo</p>
+        <p class="risk-title canva-text" data-template-id="risk-title" style="color: rgb(255, 192, 192); font-weight: 800; font-style: normal; font-size: 26px;">RIESGO ALTO</p>
+        <p class="risk-sub canva-text" data-template-id="risk-description" style="color: rgb(240, 216, 219); font-weight: 400; font-style: normal; font-size: 16px;">Estas señales requieren especial precaución antes de responder o abrir enlaces.</p>
+       </div>
+      </div>
+      <div class="card canva-card risk-scale" data-template-id="risk-scale" style="background: rgb(32, 41, 54);">
+       <div class="risk-bars" role="img" aria-label="Nivel de riesgo alto: tercer tramo de tres resaltado">
+        <span></span><span></span><span></span>
+       </div>
+       <div class="risk-labels">
+        <span class="canva-text" data-template-id="risk-low" style="color: rgb(193, 204, 220); font-weight: 700; font-style: normal; font-size: 13px;">Bajo</span><span class="canva-text" data-template-id="risk-medium" style="color: rgb(193, 204, 220); font-weight: 700; font-style: normal; font-size: 13px;">Medio</span><span class="canva-text" data-template-id="risk-high" style="color: rgb(255, 192, 192); font-weight: 700; font-style: normal; font-size: 13px;">Alto</span>
+       </div>
+      </div>
+      <div class="result-columns">
+       <div class="card canva-card" data-template-id="signals-card" style="background: rgb(32, 41, 54);">
+        <h2 class="canva-text" data-template-id="signals-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Señales detectadas</h2>
+        <ul class="detail-list signals">
+         <li><i data-lucide="circle-alert" aria-hidden="true"></i><span class="canva-text" data-template-id="signal-one" style="color: rgb(244, 247, 255); font-weight: 400; font-style: normal; font-size: 16px;">Lenguaje de urgencia</span></li>
+         <li><i data-lucide="circle-alert" aria-hidden="true"></i><span class="canva-text" data-template-id="signal-two" style="color: rgb(244, 247, 255); font-weight: 400; font-style: normal; font-size: 16px;">Solicitud de datos personales</span></li>
+         <li><i data-lucide="circle-alert" aria-hidden="true"></i><span class="canva-text" data-template-id="signal-three" style="color: rgb(244, 247, 255); font-weight: 400; font-style: normal; font-size: 16px;">Enlace sospechoso</span></li>
+        </ul>
+       </div>
+       <div class="card canva-card" data-template-id="advice-card" style="background: rgb(32, 41, 54);">
+        <h2 class="canva-text" data-template-id="advice-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Recomendaciones</h2>
+        <ul class="detail-list">
+         <li><i data-lucide="check-circle-2" aria-hidden="true"></i><span class="canva-text" data-template-id="advice-one" style="color: rgb(244, 247, 255); font-weight: 400; font-style: normal; font-size: 16px;">No proporciones información confidencial</span></li>
+         <li><i data-lucide="check-circle-2" aria-hidden="true"></i><span class="canva-text" data-template-id="advice-two" style="color: rgb(244, 247, 255); font-weight: 400; font-style: normal; font-size: 16px;">Evita abrir enlaces desconocidos</span></li>
+         <li><i data-lucide="check-circle-2" aria-hidden="true"></i><span class="canva-text" data-template-id="advice-three" style="color: rgb(244, 247, 255); font-weight: 400; font-style: normal; font-size: 16px;">Verifica la identidad del remitente</span></li>
+        </ul>
+       </div>
+      </div>
+      <p class="disclaimer canva-text" data-template-id="result-disclaimer" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 13px;">Este resultado es una evaluación preventiva, no una garantía de que el contenido sea fraudulento</p><button id="retry-analysis" type="button" class="primary canva-button" data-template-id="retry-analysis" style="background: rgb(67, 97, 238); color: rgb(255, 255, 255);"><i data-lucide="rotate-ccw" aria-hidden="true"></i><span class="canva-text" data-template-id="retry-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Realizar otro análisis</span></button>
+     </div>
+    </section>
+    <section id="view-aprender" class="view section-pad" aria-labelledby="learn-title">
+     <div class="content-inner">
+      <div class="page-heading">
+       <p class="eyebrow canva-text" data-template-id="learn-eyebrow" style="color: rgb(169, 186, 255); font-weight: 800; font-style: normal; font-size: 12px;">APRENDE A IDENTIFICAR SEÑALES</p>
+       <h1 id="learn-title" class="canva-text" data-template-id="learn-title" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 32px;">Casos similares y cómo protegerte</h1>
+       <p class="canva-text" data-template-id="learn-intro" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Conoce patrones habituales y toma decisiones más seguras.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar casos">
+       <button type="button" class="filter active canva-button" data-template-id="filter-all" data-filter="todos" aria-pressed="true" style="font-weight: 700; font-style: normal; font-size: 16px;">Todos</button><button type="button" class="filter canva-button" data-template-id="filter-messaging" data-filter="mensajeria" aria-pressed="false" style="font-weight: 700; font-style: normal; font-size: 16px;">Mensajería</button><button type="button" class="filter canva-button" data-template-id="filter-banking" data-filter="banca" aria-pressed="false" style="font-weight: 700; font-style: normal; font-size: 16px;">Banca</button><button type="button" class="filter canva-button" data-template-id="filter-links" data-filter="enlaces" aria-pressed="false" style="font-weight: 700; font-style: normal; font-size: 16px;">Enlaces</button>
+      </div>
+      <div class="case-grid">
+       <article class="card case-card canva-card" data-template-id="case-one-card" data-category="banca mensajeria" style="background: rgb(32, 41, 54);">
+        <div class="case-head">
+         <span class="icon-box" aria-hidden="true"><i data-lucide="landmark"></i></span>
+         <h2 class="canva-text" data-template-id="case-one-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Mensajes falsos de entidades bancarias</h2>
+        </div>
+        <p class="canva-text" data-template-id="case-one-desc" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Un mensaje afirma que debes actuar de inmediato para evitar el bloqueo de tu cuenta.</p>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-one-alert-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Señales de alerta</strong>
+         <p class="canva-text" data-template-id="case-one-alert" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Urgencia, remitente desconocido y enlaces para ingresar datos.</p>
+        </div>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-one-tip-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Recomendación</strong>
+         <p class="canva-text" data-template-id="case-one-tip" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Verifica el aviso directamente con tu entidad por canales oficiales.</p>
+        </div>
+       </article>
+       <article class="card case-card canva-card" data-template-id="case-two-card" data-category="mensajeria" style="background: rgb(32, 41, 54);">
+        <div class="case-head">
+         <span class="icon-box" aria-hidden="true"><i data-lucide="gift"></i></span>
+         <h2 class="canva-text" data-template-id="case-two-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Premios o promociones engañosas</h2>
+        </div>
+        <p class="canva-text" data-template-id="case-two-desc" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Una notificación promete una recompensa que nunca solicitaste.</p>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-two-alert-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Señales de alerta</strong>
+         <p class="canva-text" data-template-id="case-two-alert" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Premio inesperado y presión para responder rápidamente.</p>
+        </div>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-two-tip-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Recomendación</strong>
+         <p class="canva-text" data-template-id="case-two-tip" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Desconfía de premios inesperados y consulta la fuente oficial.</p>
+        </div>
+       </article>
+       <article class="card case-card canva-card" data-template-id="case-three-card" data-category="enlaces" style="background: rgb(32, 41, 54);">
+        <div class="case-head">
+         <span class="icon-box" aria-hidden="true"><i data-lucide="link-2"></i></span>
+         <h2 class="canva-text" data-template-id="case-three-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Enlaces que imitan sitios oficiales</h2>
+        </div>
+        <p class="canva-text" data-template-id="case-three-desc" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Una dirección web parece legítima, pero contiene diferencias sutiles.</p>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-three-alert-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Señales de alerta</strong>
+         <p class="canva-text" data-template-id="case-three-alert" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Letras cambiadas, subdominios extraños o direcciones acortadas.</p>
+        </div>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-three-tip-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Recomendación</strong>
+         <p class="canva-text" data-template-id="case-three-tip" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Revisa cuidadosamente el dominio y entra desde la web oficial.</p>
+        </div>
+       </article>
+       <article class="card case-card canva-card" data-template-id="case-four-card" data-category="mensajeria banca" style="background: rgb(32, 41, 54);">
+        <div class="case-head">
+         <span class="icon-box" aria-hidden="true"><i data-lucide="key-round"></i></span>
+         <h2 class="canva-text" data-template-id="case-four-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Mensajes que solicitan información confidencial</h2>
+        </div>
+        <p class="canva-text" data-template-id="case-four-desc" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Alguien se hace pasar por una organización para pedir acceso a tu cuenta.</p>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-four-alert-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Señales de alerta</strong>
+         <p class="canva-text" data-template-id="case-four-alert" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Solicitudes de contraseñas, códigos o información bancaria.</p>
+        </div>
+        <div class="case-info">
+         <strong class="canva-text" data-template-id="case-four-tip-label" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">Recomendación</strong>
+         <p class="canva-text" data-template-id="case-four-tip" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 14px;">Nunca compartas contraseñas ni códigos de verificación.</p>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="view-reportar" class="view section-pad" aria-labelledby="report-title">
+     <div class="content-inner">
+      <div class="page-heading">
+       <p class="eyebrow canva-text" data-template-id="report-eyebrow" style="color: rgb(169, 186, 255); font-weight: 800; font-style: normal; font-size: 12px;">PROTOTIPO DE REPORTE</p>
+       <h1 id="report-title" class="canva-text" data-template-id="report-title" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 32px;">Reportar contenido sospechoso</h1>
+       <p class="canva-text" data-template-id="report-intro" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Explora cómo sería un reporte. Este formulario es solo una demostración.</p>
+      </div>
+      <div class="report-layout">
+       <div class="card canva-card" data-template-id="report-card" style="background: rgb(32, 41, 54);">
+        <form id="report-form" novalidate="">
+         <span class="demo-tag canva-tag" data-template-id="report-demo-tag" style="background: rgb(48, 63, 115); color: rgb(213, 221, 255); font-weight: 800; font-style: normal; font-size: 12px;">DEMOSTRACIÓN · SIN ENVÍO</span>
+         <div class="form-grid">
+          <div class="form-field">
+           <label class="canva-text" data-template-id="report-type-label" for="report-type" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Tipo de contenido</label><select id="report-type" class="form-control" required=""><option value="">Selecciona una opción</option><option value="mensaje">Mensaje</option><option value="enlace">Enlace</option><option value="otro">Otro</option></select>
+          </div>
+          <div class="form-field">
+           <label class="canva-text" data-template-id="report-medium-label" for="report-medium" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Medio por el que se recibió</label><select id="report-medium" class="form-control" required=""><option value="">Selecciona una opción</option><option value="correo">Correo electrónico</option><option value="sms">SMS</option><option value="mensajeria">Aplicación de mensajería</option><option value="redes">Redes sociales</option><option value="otro">Otro</option></select>
+          </div>
+         </div>
+         <div class="form-field">
+          <label class="canva-text" data-template-id="report-description-label" for="report-description" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Descripción del intento de estafa</label><textarea id="report-description" class="form-control" required="" minlength="10" maxlength="500" placeholder="Describe las señales que te hicieron sospechar, sin incluir datos personales…"></textarea>
+         </div><button type="submit" class="primary canva-button" data-template-id="report-submit" style="background: rgb(67, 97, 238); color: rgb(255, 255, 255);"><i data-lucide="send" aria-hidden="true"></i><span class="canva-text" data-template-id="report-submit-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Enviar reporte</span></button>
+        </form>
+        <div id="report-confirmation" class="confirmation" role="status" aria-live="polite">
+         <span class="icon-box" aria-hidden="true"><i data-lucide="check"></i></span>
+         <h2 class="canva-text" data-template-id="confirmation-title" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Demostración completada</h2>
+         <p class="canva-text" data-template-id="confirmation-body" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Esta es una confirmación simulada. No se envió ni se guardó ningún reporte.</p><button type="button" id="another-report" class="secondary canva-button" data-template-id="another-report" style="background: rgb(41, 54, 72); color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 16px;">Crear otro ejemplo</button>
+        </div>
+       </div>
+       <aside class="card canva-card" data-template-id="report-aside" style="background: rgb(32, 41, 54);">
+        <span class="icon-box" aria-hidden="true"><i data-lucide="shield-alert"></i></span>
+        <h2 class="canva-text" data-template-id="report-aside-title" style="margin-top: 17px; color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Antes de describirlo</h2>
+        <p class="canva-text" data-template-id="report-warning" style="line-height: 1.65; color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">No compartas datos personales sensibles, contraseñas, códigos de verificación ni información bancaria.</p>
+        <div class="notice canva-banner" data-template-id="report-demo-notice" style="background: rgb(58, 49, 35);">
+         <i data-lucide="info" aria-hidden="true"></i><span class="canva-text" data-template-id="report-demo-text" style="color: rgb(255, 229, 167); font-weight: 400; font-style: normal; font-size: 16px;">Este prototipo no envía reportes a ninguna entidad ni almacena el contenido.</span>
+        </div>
+       </aside>
+      </div>
+     </div>
+    </section>
+    <section id="view-acerca" class="view section-pad" aria-labelledby="about-title">
+     <div class="content-inner">
+      <div class="page-heading">
+       <p class="eyebrow canva-text" data-template-id="about-eyebrow" style="color: rgb(169, 186, 255); font-weight: 800; font-style: normal; font-size: 12px;">CONOCE NEXUS</p>
+       <h1 id="about-title" class="canva-text" data-template-id="about-title" style="color: rgb(244, 247, 255); font-weight: 800; font-style: normal; font-size: 32px;">Acerca de NeXus</h1>
+       <p class="canva-text" data-template-id="about-intro" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">Una propuesta para hacer más comprensible la prevención de estafas digitales.</p>
+      </div>
+      <div class="card canva-card" data-template-id="about-card" style="max-width: 760px; background: rgb(32, 41, 54);">
+       <span class="icon-box" aria-hidden="true"><i data-lucide="shield-check"></i></span>
+       <h2 class="canva-text" data-template-id="about-card-title" style="margin-top: 19px; color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 24px;">Más claridad para decidir con seguridad</h2>
+       <p class="canva-text" data-template-id="about-body" style="line-height: 1.75; color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 16px;">NeXus es un prototipo universitario que presenta señales comunes de fraude digital y recomendaciones prácticas. Su enfoque es preventivo y educativo: ayuda a reconocer patrones sospechosos antes de responder a un mensaje o visitar un enlace.</p>
+       <div class="notice canva-banner" data-template-id="about-notice" style="background: rgb(58, 49, 35);">
+        <i data-lucide="info" aria-hidden="true"></i><span class="canva-text" data-template-id="about-limit" style="color: rgb(255, 229, 167); font-weight: 400; font-style: normal; font-size: 16px;">Los resultados de ejemplo no sustituyen la verificación directa con la entidad correspondiente.</span>
+       </div>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer class="site-footer canva-footer" data-template-id="site-footer" style="background: rgb(25, 35, 50);">
+    <div class="footer-inner">
+     <strong class="canva-text" data-template-id="footer-brand" style="color: rgb(244, 247, 255); font-weight: 700; font-style: normal; font-size: 13px;">NeXus</strong><span class="canva-text" data-template-id="footer-text" style="color: rgb(193, 204, 220); font-weight: 400; font-style: normal; font-size: 13px;">Prevención de fraudes digitales</span>
+    </div>
+   </footer>
+  </div>
+
+ 
+</body></html>
